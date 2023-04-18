@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css"">
+    <script defer src="js/elefantes.js"></script>
+    <script defer src="js/main.js"></script>
+    <title>Proyecto</title>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mb-5 mt-5">Elefantes</h1>
+        <form id="formulario" class="row row-cols-lg-auto g-3 align-items-center mb-5">
+            <div class="col-12">
+                <input type="text" class="form-control" id="busqueda" placeholder="Buscar estudiante">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" id="boton_todos" class="btn btn-danger">Todos</button>
+                <button type="button" id="boton_machos" class="btn btn-danger">Machos</button>
+                <button type="button" id="boton_hembras" class="btn btn-danger">Hembras</button>
+            </div>
+        </form>
+
+        <div class="row" id="contenedor"></div>
+    </div>
+</body>
+</html>

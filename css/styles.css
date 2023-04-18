@@ -1,0 +1,21 @@
+body {
+    background-color: #F4F6F7;
+}
+
+#boton_todos{
+    background-color: #D7DBDD;
+    color: black;
+    border: none;
+    margin-left: 730px;
+}
+#boton_machos{
+    background-color: #D7DBDD;
+    color: black;
+    border: none;
+}
+#boton_hembras{
+    background-color: #D7DBDD;
+    color: black;
+    border: none;
+}
+
